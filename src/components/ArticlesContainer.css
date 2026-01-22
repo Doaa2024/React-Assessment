@@ -1,0 +1,39 @@
+.articlesContainer {
+  color: rgba(24, 24, 24, 0.87); 
+  border: 1px solid #ccc;
+  width: 100%;             
+  max-width: 900px;        
+  margin: 8px auto 20px;   
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;  
+  background-color: #fff;  
+  transition: all 0.3s ease;
+   border-color: #6aa832;    
+}
+
+
+.articlesContainer:hover {
+  transform: translateY(-2px);
+   
+  box-shadow: 0 4px 12px rgba(106, 168, 50, 0.4);
+}
+
+.date{
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-style: italic;
+    margin-top: 0;
+    line-height: 0;
+}
+
+.highlight {
+  background-color: #ffff00; /* yellow highlight */
+  color: #000;
+  font-weight: 600;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+

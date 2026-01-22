@@ -1,0 +1,51 @@
+.container {
+  position: relative;      
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto; 
+  margin-bottom: 20px;     
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  padding: 0 40px 0 20px;  
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.input:hover {
+  border-color: #8ebf42;     
+  box-shadow: 0 8px 8px rgba(142, 191, 66, 0.2);
+  outline: none;             
+}
+
+.input:focus {
+  border-color: #6aa832;    
+  box-shadow: 0 4px 12px rgba(106, 168, 50, 0.4);
+  outline: none;
+}
+
+.cancel {
+  position: absolute;
+  right: 30px;           
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+  color: #888;
+  padding: 0;
+  transition: all 0.3s ease; 
+}
+
+/* Hover effect for cancel button */
+.cancel:hover {
+  color: #8ebf42;      
+  transform: translateY(-50%) scale(1.2);
+}
+

@@ -1,0 +1,17 @@
+#root {
+  text-align: center;
+  background-color: rgba(152, 243, 17, 0.2);
+    padding-left: 8px; 
+    padding-right: 8px;  
+}
+.postNumber{
+  font-size: 20px;
+  color: rgb(39, 39, 39);
+  margin-top: 0px;
+}
+.nothingFounded{
+  font-size: 24px;
+  color: rgb(39, 39, 39);
+  text-align: center;
+  margin-top: 10%;
+}
